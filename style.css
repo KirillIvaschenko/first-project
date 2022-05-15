@@ -1,0 +1,83 @@
+.df-for-game-area {
+    display: flex;
+    justify-content: space-around;
+}
+.div-with-x {
+    border: 2px solid black;
+    
+    background-color: #11F45F;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.div-with-o{
+    border: 2px solid black;
+    background-color: #11F45F;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.choose-signs-for-players{
+    display: flex;
+}
+.wrapper {
+    border: 4px solid black;
+    width: 324px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    z-index: 0;
+    
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    
+    border: 2px solid black;
+}
+
+.signs-first {
+    font-size: 50px;
+    font-weight: 700;
+}
+.signs-second{
+    font-size: 50px;
+    font-weight: 700;
+}
+#restart-btn {
+    border: 1px solid black;
+    background-color: #EE1C6F;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: none;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+#restart-btn:hover {
+    background-color: #8C2FD8;
+}
+.restart{
+    margin-left: 240px;
+    margin-top: 20px;
+    z-index: 1;
+    display: none;
+}
+
+.second-wrapper {
+    display: flex;
+    flex-direction: column;
+}
